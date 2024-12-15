@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejaswi Seelam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3d0d779f21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+      <div id="header">
+        <div class="container">
+            <nav>
+        
+                <img src="images/logo1.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Tejaswi</span> Seelam</h1>
+            </div>
+        </div>
+   </div> 
+   <!--About Section-->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/logo1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>Hi there! I'm Tejaswi, a web developer and designer passionate about creating impactful solutions for society. 
+                     Whether it's designing impactful websites, diving into data-driven insights, or creating innovative solutions,
+                      I love bringing ideas to life. Welcome to my digital space!</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('trust')">Design</p>
+                <p class="tab-links" onclick="opentab('connect')">Development</p>
+                <p class="tab-links" onclick="opentab('sustain')">Passion Projects</p>
+                <p class="tab-links" onclick="opentab('impact')">Vision</p>
+            </div>
+            <div class="tab-contents active-tab" id="trust">
+                <ul>
+                    <li><span>Crafting User-Centric Designs:</span><br>I specialize in creating responsive, intuitive, and aesthetically pleasing websites that users love.</li>
+                    <li><span>Attention to Detail:</span><br>Every pixel counts! I ensure my designs are not just functional but visually engaging.</li>
+                    <li><span>Tools I Use:</span><br>HTML, CSS, and design principles that bring ideas to life.</li>
+                    
+                </ul>
+            </div>      
+            <div class="tab-contents" id="connect">
+                <ul>
+                    <li><span>Building with Purpose:</span><br>From simple layouts to complex interactive pages, I love using web technologies to solve real-world problems.</li>
+                    <li><span>Recent Work:</span><br><br><span>LinkWell-</span>A webpage addressing water-related issues, focusing on user awareness and action.
+                   <br><br><span>Supply Management-</span>It is more than a webpage,it helps the people who are in need by connecting the donnors and help the people who are in need. </li>
+                    <li><span>Future Goals:</span><br>To explore advanced backend development while continuing to design for social impact.</li>
+                    
+                </ul>
+            </div>      
+            <div class="tab-contents" id="sustain">
+                <ul>
+                    <li><span>Achievements</span><br>Successfully led a team to develop innovative solutions for societal challenges, including providing free sanitary pads in remote areas.</li>
+                    <li><span>Commitment to Excellence:</span><br>Every project I work on reflects my dedication to creating quality and impactful work.</li>
+                    
+                </ul>
+            </div>      
+            <div class="tab-contents" id="impact">
+                <ul>
+                    <li><span>Turning small efforts into big changes</span><br>Creating digital solutions that matter—whether through elegant designs or functional platforms, I aim to leave a positive impact on the world.</li>
+                    
+                </ul>
+            </div>      
+            
+            </div>
+        </div>
+    </div>
+   </div>
+   <!---Services-->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="portfolio-list">
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <h2>Responsive Web Design</h2>
+                <p>Crafted elegant, user-friendly websites with responsive layouts using HTML and CSS. Focused on clean code and seamless navigation.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <h2>Social Impact Project</h2>
+                <p>Designed and developed LinkWell and Supply Mangement, webpages addressing society-related issues. These projects raised awareness and promoted actionable steps to tackle obstacles</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h2>Passion for Social Change</h2>
+                <p>Specialized in creating websites that aim to solve societal challenges, including clean water access and sanitation awareness, through engaging web platforms.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <h2>Design Meets Development</h2>
+                <p>Combined creativity with functionality to design and build impactful websites. Skilled in design principles, CSS animations, and prototyping tools.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <!---Contact-->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>tejuseelam@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9989260245</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tejaswiseelam/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tejaswi Seelam 2024</p>
+    </div>
+   </div>
+
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+    for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwMXV7tdi9qSfggKfl5uIubwrbkBp7SUiDZGl_OwM8awkWSXlMrgcq4UDeXnCZCnG8FNA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{msg.innerHTML="Thank You For Contacting me!" 
+        setTimeout(function(){msg.innerHTML=""},5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
